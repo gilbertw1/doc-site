@@ -1,0 +1,308 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>api - slack.api</title>
+          <meta name="description" content="api - slack.api" />
+          <meta name="keywords" content="api slack.api" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../index.html';
+            var hash = 'slack.api.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../lib/package_big.png" />
+        <p id="owner"><a href="../package.html" class="extype" name="slack">slack</a></p>
+        <h1>api</h1><span class="permalink">
+      <a href="../../index.html#slack.api.package" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">api</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="slack.api.AccessToken" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AccessTokenextendsProductwithSerializable"></a>
+      <a id="AccessToken:AccessToken"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AccessToken.html"><span class="name">AccessToken</span></a><span class="params">(<span name="access_token">access_token: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="scope">scope: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@AccessTokenextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.ApiError" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ApiErrorextendsExceptionwithProductwithSerializable"></a>
+      <a id="ApiError:ApiError"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ApiError.html"><span class="name">ApiError</span></a><span class="params">(<span name="code">code: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Exception">Exception</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@ApiErrorextendsExceptionwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.BlockingSlackApiClient" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BlockingSlackApiClientextendsAnyRef"></a>
+      <a id="BlockingSlackApiClient:BlockingSlackApiClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BlockingSlackApiClient.html"><span class="name">BlockingSlackApiClient</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@BlockingSlackApiClientextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.FileInfo" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FileInfoextendsProductwithSerializable"></a>
+      <a id="FileInfo:FileInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FileInfo.html"><span class="name">FileInfo</span></a><span class="params">(<span name="file">file: <a href="../models/SlackFile.html" class="extype" name="slack.models.SlackFile">SlackFile</a></span>, <span name="comments">comments: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/SlackComment.html" class="extype" name="slack.models.SlackComment">SlackComment</a>]</span>, <span name="paging">paging: <a href="PagingObject.html" class="extype" name="slack.api.PagingObject">PagingObject</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@FileInfoextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.FilesResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FilesResponseextendsProductwithSerializable"></a>
+      <a id="FilesResponse:FilesResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FilesResponse.html"><span class="name">FilesResponse</span></a><span class="params">(<span name="files">files: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/SlackFile.html" class="extype" name="slack.models.SlackFile">SlackFile</a>]</span>, <span name="paging">paging: <a href="PagingObject.html" class="extype" name="slack.api.PagingObject">PagingObject</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@FilesResponseextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.HistoryChunk" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HistoryChunkextendsProductwithSerializable"></a>
+      <a id="HistoryChunk:HistoryChunk"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="HistoryChunk.html"><span class="name">HistoryChunk</span></a><span class="params">(<span name="latest">latest: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="messages">messages: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="play.api.libs.json.JsValue">JsValue</span>]</span>, <span name="has_more">has_more: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@HistoryChunkextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.PagingObject" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PagingObjectextendsProductwithSerializable"></a>
+      <a id="PagingObject:PagingObject"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PagingObject.html"><span class="name">PagingObject</span></a><span class="params">(<span name="count">count: <span class="extype" name="scala.Int">Int</span></span>, <span name="total">total: <span class="extype" name="scala.Int">Int</span></span>, <span name="page">page: <span class="extype" name="scala.Int">Int</span></span>, <span name="pages">pages: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@PagingObjectextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.ReactionsResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReactionsResponseextendsProductwithSerializable"></a>
+      <a id="ReactionsResponse:ReactionsResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReactionsResponse.html"><span class="name">ReactionsResponse</span></a><span class="params">(<span name="items">items: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="play.api.libs.json.JsValue">JsValue</span>]</span>, <span name="paging">paging: <a href="PagingObject.html" class="extype" name="slack.api.PagingObject">PagingObject</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@ReactionsResponseextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.RtmStartState" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RtmStartStateextendsProductwithSerializable"></a>
+      <a id="RtmStartState:RtmStartState"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RtmStartState.html"><span class="name">RtmStartState</span></a><span class="params">(<span name="url">url: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="self">self: <a href="../models/User.html" class="extype" name="slack.models.User">User</a></span>, <span name="team">team: <a href="../models/Team.html" class="extype" name="slack.models.Team">Team</a></span>, <span name="users">users: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/User.html" class="extype" name="slack.models.User">User</a>]</span>, <span name="channels">channels: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/Channel.html" class="extype" name="slack.models.Channel">Channel</a>]</span>, <span name="groups">groups: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/Group.html" class="extype" name="slack.models.Group">Group</a>]</span>, <span name="ims">ims: <span class="extype" name="scala.Seq">Seq</span>[<a href="../models/Im.html" class="extype" name="slack.models.Im">Im</a>]</span>, <span name="bots">bots: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="play.api.libs.json.JsValue">JsValue</span>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@RtmStartStateextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.SlackApiClient" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SlackApiClientextendsAnyRef"></a>
+      <a id="SlackApiClient:SlackApiClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="SlackApiClient.html"><span class="name">SlackApiClient</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@SlackApiClientextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="slack.api.BlockingSlackApiClient" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BlockingSlackApiClient"></a>
+      <a id="BlockingSlackApiClient:BlockingSlackApiClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BlockingSlackApiClient$.html"><span class="name">BlockingSlackApiClient</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@BlockingSlackApiClient" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="slack.api.SlackApiClient" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SlackApiClient"></a>
+      <a id="SlackApiClient:SlackApiClient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SlackApiClient$.html"><span class="name">SlackApiClient</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../index.html#slack.api.package@SlackApiClient" title="Permalink" target="_top">
+        <img src="../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
